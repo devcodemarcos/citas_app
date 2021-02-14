@@ -15,7 +15,7 @@ Sigue las instrucciones en orden ascendente para iniciar el proyecto:
 - $ composer install
 - $ cp .env.example .env
 
-En el archivo **.env** colocar el valor **citas_db** en la constante **DB_DATABASE** ej: **DB_DATABASE=citas_db**
+En el archivo **.env** colocar el valor **citas_db** en la constante **DB_DATABASE**
 
 - $ php artisan key:generate
 - $ php artisan migrate
