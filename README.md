@@ -13,4 +13,10 @@ Sigue las siguentes instrucciones en orden acendente para iniciar el proyecto:
 
 - $ git clone https://github.com/devcodemarcos/citas_app.git
 - $ composer install
+- $ cp .env.example .env
+En el archivo .env colocar el valor *citas_app* en la constante *DB_DATABASE* ej: *DB_DATABASE=citas_app*
+- $ php artisan key:generate
+- $ php artisan migrate
+- $ php artisan db:seed
 - $ npm install
+- $ npm run dev
