@@ -17,6 +17,7 @@ Sigue las instrucciones en orden ascendente para iniciar el proyecto:
 - $ cp .env.example .env
 
 En el archivo **.env** colocar el valor **citas_db** en la constante **DB_DATABASE**
+
 Crear la base de datos en MySQL con el nombre de **citas_db**
 
 - $ php artisan key:generate
