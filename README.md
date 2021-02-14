@@ -23,6 +23,6 @@ En el archivo **.env** colocar el valor **citas_db** en la constante **DB_DATABA
 - $ npm install
 - $ npm run dev
 
-Omite el siguiente paso si estas usando un entorno como xammp, laragon, etc...
+Omite el siguiente paso si estas usando un entorno como xampp, laragon, etc...
 
 - $ php artisan serve
