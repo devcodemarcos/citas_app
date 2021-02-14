@@ -12,6 +12,7 @@
 Sigue las instrucciones en orden ascendente para iniciar el proyecto:
 
 - $ git clone https://github.com/devcodemarcos/citas_app.git
+- $ cd citas_app
 - $ composer install
 - $ cp .env.example .env
 
