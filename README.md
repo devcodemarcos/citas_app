@@ -9,7 +9,7 @@
 
 ## Citas App
 
-Sigue las siguentes instrucciones en orden acendente para iniciar el proyecto:
+Sigue las instrucciones en orden ascendente para iniciar el proyecto:
 
 - $ git clone https://github.com/devcodemarcos/citas_app.git
 - $ composer install
@@ -22,3 +22,7 @@ En el archivo **.env** colocar el valor **citas_db** en la constante **DB_DATABA
 - $ php artisan db:seed
 - $ npm install
 - $ npm run dev
+
+Omite el siguiente paso si estas usando un entorno como xammp, laragon, etc...
+
+- $ php artisan serve
